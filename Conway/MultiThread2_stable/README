@@ -30,3 +30,11 @@ press G(or g) while pause to exit the simulation.
 
 
 
+Known Issue:
+
+thx for matlab's bug, sometimes while for a too much frequency's click, the function ginput might break, which would make it unable to get any input and system would stuck.
+Hold down Ctrl+C on cmd line of v2_main.m to force stop the operation.
+
+v2_t1.m can't be turn off automatically.
+   will be fixed in next version.
+
