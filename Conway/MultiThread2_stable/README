@@ -1,0 +1,32 @@
+This is a relatively stable version, support directly edit at any time of run rather than hardcode in code.
+
+Notice that this still required at least two Matlab boot simultaniously, and in author's computer, this cost at least 3.3GB ram.
+
+Launch Method:
+
+1. Launch 2 Matlab(Recommend 2020a or later) simultaniously.
+
+2, Switch the dictionary to folder with two matlab script(v2_main.m and v2_t1.m)
+
+3. Open two script separately with 2 matlab.
+
+4. Boot v2_t1.m first.
+
+5. Boot v2_main.m.
+
+6. Enjoy.
+
+
+
+Operation:
+
+use "space"(or key code 32 if with customized Keyboard) to pause/resume.
+
+while it's currently on puase method, use directly mouth's left click(or any un-defined key_ to add a new cell.
+
+press R(or r) while pause to wipe all to white(Reset all condition.)
+
+press G(or g) while pause to exit the simulation.
+
+
+
