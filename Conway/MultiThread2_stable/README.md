@@ -47,7 +47,9 @@ For this solution, only mostly not enough 0.02second per 0.2 second can't get us
 # Known Issue:
 
 Thx for matlab's bug, sometimes while for a too much frequency's click, the function ginput might break, which would make it unable to get any input and system would stuck.
+
 Hold down Ctrl+C on cmd line of v2_main.m to force stop the operation.
+
 In some extreme cases, while the Calculation thread completely lost from main function, please use system manager provided by OS to force stop the whole matlab.
 
 v2_t1.m can't be turn off automatically.
