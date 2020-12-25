@@ -39,14 +39,14 @@ The reason why still choose Multi matlab is due to the matlab's timer function's
 
 So if use only timer function to calculate and all in one matlab, most of time would all stuck in calculation and can't get user's input correctly.
 
-The solution here used is Boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
+The solution here used is boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
 
 For this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
 
 
 # Known Issue:
 
-thx for matlab's bug, sometimes while for a too much frequency's click, the function ginput might break, which would make it unable to get any input and system would stuck.
+Thx for matlab's bug, sometimes while for a too much frequency's click, the function ginput might break, which would make it unable to get any input and system would stuck.
 Hold down Ctrl+C on cmd line of v2_main.m to force stop the operation.
 In some extreme cases, while the Calculation thread completely lost from main function, please use system manager provided by OS to force stop the whole matlab.
 
