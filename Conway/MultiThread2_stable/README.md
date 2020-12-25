@@ -36,10 +36,13 @@ in execution, X.dat and Y.dat would be create as the shared memory for two matla
 Please do NOT delete or mv them while running.
 
 The reason why still choose Multi matlab is due to the matlab's timer function's feature
-it would "stop" the main function while times up and executing the timerFunction,
-and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17 to 0.19 second for all 100x100 matrix calculation).
-so if use only timer function to calculate and all in one matlab, most of time would all stuck in calculation and can't get user's input correctly.
-so the solution here used is Boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
+
+it would "stop" the main function while times up and executing the timerFunction,and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17 to 0.19 second for all 100x100 matrix calculation).
+
+So if use only timer function to calculate and all in one matlab, most of time would all stuck in calculation and can't get user's input correctly.
+
+The solution here used is Boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
+
 for this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
 
 
