@@ -1,4 +1,4 @@
-# Introduction.
+# Introduction:
 
 This is a relatively stable version, support directly edit at any time of run rather than hardcode in code.
 
@@ -12,7 +12,7 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 3. Open two script separately with 2 matlab.
 
-4. Boot v2_t1.m first.
+4. Boot v2_t1.m.
 
 5. Boot v2_main.m.
 
@@ -37,7 +37,7 @@ Please do NOT delete or mv them while running.
 
 The reason why still choose Multi matlab is due to the matlab's timer function's feature
 it would "stop" the main function while times up and executing the timerFunction,
-and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17~0.19 second for all 100x100 matrix calculation).
+and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17 to 0.19 second for all 100x100 matrix calculation).
 so if use only timer function to calculate and all in one matlab, most of time would all stuck in calculation and can't get user's input correctly.
 so the solution here used is Boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
 for this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
