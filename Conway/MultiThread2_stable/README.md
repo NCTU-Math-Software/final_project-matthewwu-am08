@@ -8,7 +8,7 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 1. Launch 2 Matlab(Recommend 2020a or later) simultaniously.
 
-2, Switch the dictionary to folder with two matlab script(v2_main.m and v2_t1.m)
+2. Switch the dictionary to folder with two matlab script(v2_main.m and v2_t1.m)
 
 3. Open two script separately with 2 matlab.
 
