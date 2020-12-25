@@ -2,6 +2,8 @@
 
 Please use matlab to execute Classic_InitialConv_Changable_size.m.
 
+If want to change the panel"s size,please directly edit the variable size(define at line 1) before execute.
+
 # Operation Method.
 
 Use mouse click to add new(if there have no cell)/remove(if ther have already have a cell)
