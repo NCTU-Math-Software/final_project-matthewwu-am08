@@ -12,9 +12,9 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 3. Open two script separately with 2 matlab.
 
-4. Boot v2_t1.m.
+4. Launch v2_t1.m.
 
-5. Boot v2_main.m.
+5. Launch v2_main.m.
 
 6. Enjoy.
 
@@ -22,22 +22,22 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 # Operation Method:
 
-use "space" to pause/resume the stimulation..
+Use "space" to pause/resume the stimulation..
 
 while it's currently on puase method, use directly mouse's left click(or any un-defined key to add a new cell.
 
-press R(or r) while pause to wipe all to white(Reset all condition.)
+Press R(or r) while pause to wipe all to white(Reset all condition.)
 
-press G(or g) while pause to exit the simulation.
+Press G(or g) while pause to exit the simulation.
 
 # Notice:
 
-in execution, X.dat and Y.dat would be create as the shared memory for two matlab, and a file named "t1.csv" might generate as the tmp conditonal marker.
+In execution, X.dat and Y.dat would be create as the shared memory for two matlab, and a file named "t1.csv" might generate as the tmp conditonal marker.
 Please do NOT delete or mv them while running.
 
 The reason why still choose Multi matlab is due to the matlab's timer function's feature
 
-it would "stop" the main function while times up and executing the timerFunction,and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17 to 0.19 second for all 100x100 matrix calculation).
+It would "stop" the main function while times up and executing the timerFunction,and the Calculation for this project is a little bit too massive(In Author's 3300X, Cost 0.17 to 0.19 second for all 100x100 matrix calculation).
 
 So if use only timer function to calculate and all in one matlab, most of time would all stuck in calculation and can't get user's input correctly.
 
