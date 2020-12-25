@@ -22,9 +22,9 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 # Operation Method:
 
-use "space"(or key code 32 if with customized Keyboard) to pause/resume.
+use "space" to pause/resume the stimulation..
 
-while it's currently on puase method, use directly mouth's left click(or any un-defined key_ to add a new cell.
+while it's currently on puase method, use directly mouse's left click(or any un-defined key to add a new cell.
 
 press R(or r) while pause to wipe all to white(Reset all condition.)
 
