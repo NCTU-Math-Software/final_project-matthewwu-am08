@@ -1,0 +1,25 @@
+read README first!
+
+this version is not been maintain and prioritize. 
+
+since this use the HardDisk as the memory transfer between both thread, boot it at your own risk.
+
+Launch Method:
+
+1. Open 4 Matlab(Recommend: 2020a or later)
+
+2.move dictionary to the folder with 4 matlab script file(Main.m,t1.m,t2.m,PlayerIO.m)
+
+3. use Each Matlab to open one of the script.
+
+4. launch t1.m and t2.m first.
+
+5. Launch PlayerIO.m
+
+6. Launch Main.m.
+
+
+
+Notice that the PlayerIO's drawspace is aviliable for pause, and directly Click and Main's draw
+to edit.
+

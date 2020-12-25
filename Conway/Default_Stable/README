@@ -1,0 +1,9 @@
+This is the Default for Conway's Game of Life, most stable, single thread one.
+
+This version can NOT edit any of condition by user without directly edit the code.
+
+All initial condition was writen on line 4~Line18, it's able to add manually.
+
+
+for author's PC(R3-3300X), each round cost roundly 0.25s~0.5s.
+
