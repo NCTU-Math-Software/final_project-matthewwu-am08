@@ -53,5 +53,5 @@ Hold down Ctrl+C on cmd line of v2_main.m to force stop the operation.
 In some extreme cases, while the Calculation thread completely lost from main function, please use system manager provided by OS to force stop the whole matlab.
 
 v2_t1.m can't be turn off automatically.
-   will be fixed in next version if this can really be fixed.
+   This will be fixed in next version if this can really be fixed.
 
