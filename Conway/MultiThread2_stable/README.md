@@ -43,7 +43,7 @@ So if use only timer function to calculate and all in one matlab, most of time w
 
 The solution here used is Boot a timer function, which active each 0.2second, and for each boot would draw previous' image and call t1 to calculate for next round.
 
-for this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
+For this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
 
 
 # Known Issue:
