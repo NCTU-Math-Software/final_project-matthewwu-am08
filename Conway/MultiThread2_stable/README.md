@@ -1,8 +1,10 @@
+# Introduction.
+
 This is a relatively stable version, support directly edit at any time of run rather than hardcode in code.
 
 Notice that this still required at least two Matlab boot simultaniously, and in author's computer, this cost at least 3.3GB ram.
 
-Launch Method:
+# Launch Method:
 
 1. Launch 2 Matlab(Recommend 2020a or later) simultaniously.
 
@@ -18,7 +20,7 @@ Launch Method:
 
 
 
-Operation:
+# Operation Method:
 
 use "space"(or key code 32 if with customized Keyboard) to pause/resume.
 
@@ -28,7 +30,7 @@ press R(or r) while pause to wipe all to white(Reset all condition.)
 
 press G(or g) while pause to exit the simulation.
 
-Notice:
+# Notice:
 
 in execution, X.dat and Y.dat would be create as the shared memory for two matlab, and a file named "t1.csv" might generate as the tmp conditonal marker.
 Please do NOT delete or mv them while running.
@@ -41,11 +43,11 @@ so the solution here used is Boot a timer function, which active each 0.2second,
 for this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
 
 
-Known Issue:
+# Known Issue:
 
 thx for matlab's bug, sometimes while for a too much frequency's click, the function ginput might break, which would make it unable to get any input and system would stuck.
 Hold down Ctrl+C on cmd line of v2_main.m to force stop the operation.
 
 v2_t1.m can't be turn off automatically.
-   will be fixed in next version.
+   will be fixed in next version if this can really be fixed.
 
