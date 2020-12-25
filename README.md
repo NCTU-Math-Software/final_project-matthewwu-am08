@@ -9,6 +9,3 @@ For a relative simple version without multiple matlab(and less feature), please 
 
 # Extra
 the folder ants provide two kind of Langton's ant's stimulation, both of them have no user interface, please execute directly and stop it with Ctrl+C.
-
-
-
