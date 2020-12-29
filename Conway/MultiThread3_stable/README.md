@@ -47,6 +47,10 @@ The solution here used is boot a timer function, which active each 0.2second, an
 
 For this solution, only mostly not enough 0.02second per 0.2 second can't get user input, the FPS can be maintain at roundly 4.5~5.
 
+##### Edited extra for this version:
+Unfortunately after some test over win10, the systemcall's eval command can not be actually called over win10(Same issue also happened for the ginput's error), and this should have been fixed for MultiThread3_stable, but actually can not sure it can worked correctly, if occur any werid case(like the animation's roll back, or any other unpredictable event such as crashed, try to slow down the number define at line 69, which is the system's tick, or contact me with email(written in root's READ.md)
+
+I hope you enjoy with this project's stimulation's effect.
 
 # Known Issue:
 
