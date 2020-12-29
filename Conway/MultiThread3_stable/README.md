@@ -18,11 +18,9 @@ Notice that this still required at least two Matlab boot simultaniously, and in 
 
 3. Open two script separately with 2 matlab.
 
-4. Launch v2_t1.m.
+4. Launch v3_main.m and v3_t1.m seperately.
 
-5. Launch v2_main.m.
-
-6. Enjoy.
+5. Enjoy.
 
 
 
